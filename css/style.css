@@ -1,0 +1,182 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background: #0c1013;
+    color: #dae2e4;
+    font-family: 'Crimson Text', serif;
+    font-weight: 200;
+
+}
+
+#nav {
+
+    background-color: rgba(0, 0, 0, 0.739);
+    padding-left: 15px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#nav ul {
+
+    list-style: none;
+    
+}
+
+#nav ul li {
+
+    float: left;
+    margin-right: 40px;
+    font-size: 1.2em;
+    line-height: 50px;   
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+#nav ul li:first-child {
+
+    line-height: 0px;
+
+}
+
+#nav ul li a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#nav ul li a:hover {
+
+    color: red;
+    text-decoration: none;
+
+}
+
+#buy {
+
+    float: right;
+    line-height: 50px;
+    background-color: maroon;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#buy img {
+
+    float: left;
+    padding-top: 15px;
+    padding-right: 5px;
+
+}
+
+#buy h3 {
+
+    font-weight: 100;
+    font-size: 18px;
+    float: left;
+
+}
+
+.clearfix {
+
+    clear: both;
+
+}
+
+#main {
+
+    margin-top: 50px;
+
+}
+
+#signup {
+
+    background-color: rgba(255, 255, 255, 0.918);
+    height: 50px;
+    
+}
+
+.leftside a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.leftside {
+
+    float: left;
+    line-height: 50px;
+    background-color: maroon;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.textnews {
+
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    line-height: 50px;
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+
+}
+
+.socialmedia {
+
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.socialmedia ul li:first-child {
+
+    font-size: 0.9em;
+
+}
+
+.socialmedia ul li {
+
+    float: left;
+    margin-right: 20px;
+    font-size: 1.1em;
+    line-height: 50px;   
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    list-style: none;
+
+
+}
+
+
+.socialmedia ul a {
+
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.socialmedia ul li a:hover {
+
+    color: red;
+    text-decoration: none;
+
+}
+
