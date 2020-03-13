@@ -1,0 +1,269 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: black;
+    font-family: 'Crimson Text', serif;
+
+}
+
+.container {
+
+    background-color: rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    
+}
+
+
+
+.container a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.container ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    display: flex;
+    align-items: center;
+    
+}
+
+ #nav ul li {
+
+    padding: 0 10px;
+
+}
+
+#nav ul li img {
+
+    width: 100px;
+
+}
+
+.nav-buy {
+
+    background-color: maroon;
+    width: 200px;
+    height: 70px;
+    padding-left: 35px;
+    padding-top: 21px;
+    
+}
+
+.nav-buy ul {
+
+    
+}
+
+
+
+.nav-buy ul li img {
+
+    width: 20px;
+    margin-right: 10px;
+
+
+}
+
+
+
+.social {
+
+    background-color: rgba(255, 255, 255, 0.678);
+    color: black;
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;    
+    
+}
+
+.signup {
+
+    background-color: maroon;
+    padding: 27px;
+
+}
+
+.signup a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.text {
+
+    flex: 1;
+    padding-left: 15px;
+
+} 
+
+.links {
+
+    display: flex;
+
+}
+
+.links li {
+
+    padding-right: 20px;
+    list-style: none;
+
+}
+
+.links li a {
+
+    color: black;
+    font-size: 18px;
+
+}
+
+.heroparallax {
+
+    min-height: 600px;
+
+}
+
+.heroparallax img {
+
+    
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -2;
+
+}
+
+.hero3 img {
+
+    left: 0;
+    bottom: 0;
+    background-size: contain;
+    background-position: center bottom;
+    top: 150px;
+    width: 100%;
+
+}
+
+.hero4 img {
+
+    top:450px;
+    left: 41%;
+    width: 350px;
+    position: relative;
+
+}
+
+.trailer-buy {
+
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    margin: auto;
+    padding-top: 500px;
+    
+    
+
+}
+
+
+.trailer-buy a {
+
+    text-decoration: none;
+
+}
+
+.trailer {
+
+    background-color:rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    letter-spacing: 0.1em;
+    font-weight: 700px;
+    margin-right: 30px;
+    
+    
+}
+
+.trailer a {
+
+    color: black;
+
+}
+
+.buynow {
+
+    background-color: maroon;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+}
+
+.buynow a {
+
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+
+    .hero4 img {
+
+        top:170px;
+        left: 42%;
+        width: 150px;
+        position: relative;
+    
+    }
+
+    .trailer-buy {
+
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 400px;
+        margin: auto;
+        padding-top: 200px;
+        
+    }
+
+    .trailer {
+
+        width: 100px;
+        font-size: 12px;
+
+    }
+
+    .buynow {
+
+        width: 100px;
+
+    }
+
+
+}
